@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: webtest:1.0
+        image: 211.183.3.100:5000/webtest:1.0
         ports:
         - containerPort: 80
 ---
